@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#searchbar {
+  width: 40%;
+  height: 35px;
+  font-family:Poppins;
+  margin-top: 1.8%;
+  border-radius: 5px;
+  border:none;
+  text-align: center;
+  box-shadow: 1px 1px 5px 1px rgb(208, 207, 207)
+}
+#logo{
+  height: 100px;
+}
+#searchbar:focus{
+  outline:0px;
+}
+
+#nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: max-content;
+}
+
+#register-btn{
+  font-family: Poppins;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 1px 1px 0px 0.5px;
+  width: 120px;
+  height: 40px;
+}
+#register-btn:hover{
+  background-color: black;
+  color: white;
+}
+#register-btn-div{
+  margin: 1%;
+}
+#book-img{
+  border-radius: 3px;
+  width: 180px;
+  height: 280px;
+}
+#book-title{
+  font-family: Poppins;
+}
+#book-rating{
+  display: flex;
+  align-items: center;
+  width: max-content;
+  justify-content: center;
+  justify-content: space-between;
+}
+#star{
+  display: flex;
+  align-items: center;
+  height: 24.6px;
+}
+#free{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#book-details{
+  width: 9%;
+  display: flex;
+  justify-content: space-between;
+}
+#books{
+  display: grid;
+  /* border: 2px solid; */
+  grid-template-columns: repeat(5,1fr);
+  align-content: space-between;
+  justify-items: center;
+  /* height:180vh; */
+  width: max-content;
+
+}
+#main{
+  display: flex;
+  justify-content: center;
+}
+#not-msg{
+  /* border: 2px solid; */
+  font-family: Josefin Sans  ;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
